@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.pluginbuilder.autotestsuite.feature_0.8.0.201111291745.jar" id="org.pluginbuilder.autotestsuite.feature" version="0.8.0.201111291745"/>
+</site>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Export-Package: org.pluginbuilder.util
+Bundle-Version: 0.8.0.qualifier
+Bundle-Name: Utilities for Autotestsuite and Pluginbuilder
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.pluginbuilder.util
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: pluginbuilder.org
+

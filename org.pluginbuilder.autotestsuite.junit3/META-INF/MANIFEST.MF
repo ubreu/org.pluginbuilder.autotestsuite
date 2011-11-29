@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: org.pluginbuilder.autotestsuite.junit3,org.pluginbuild
+ er.autotestsuite.junit3.internal;x-friends:="org.pluginbuilder.autote
+ stsuite.tests,org.pluginbuilder.autotestsuite.junit4"
+Require-Bundle: org.eclipse.core.runtime,org.junit,org.eclipse.core.re
+ sources
+Bundle-Vendor: pluginbuilder.org
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/asm-3.1.jar
+Bundle-Version: 0.8.0.qualifier
+Bundle-Name: Autotestsuite JUnit3 Plug-in
+Bundle-Activator: org.pluginbuilder.autotestsuite.junit3.internal.Acti
+ vator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.pluginbuilder.autotestsuite.junit3
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

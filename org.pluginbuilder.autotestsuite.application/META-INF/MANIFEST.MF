@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: org.pluginbuilder.autotestsuite.application;x-friends:
+ ="org.pluginbuilder.autotestsuite.tests"
+Require-Bundle: org.eclipse.osgi,org.eclipse.core.runtime,org.eclipse.
+ ui.workbench,org.pluginbuilder.autotestsuite.junit3,org.pluginbuilder
+ .autotestsuite.junit4,org.apache.ant,org.junit,org.pluginbuilder.util
+ ;bundle-version="0.0.0"
+Bundle-Vendor: pluginbuilder.org
+Bundle-Version: 0.8.0.qualifier
+Bundle-Name: Autotestsuite Application Plug-in
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.pluginbuilder.autotestsuite.application;singl
+ eton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+
