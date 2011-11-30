@@ -32,11 +32,17 @@ public final class IsJUnit4TestFilter implements ClassFilter {
   }
 
   private boolean isJUnit4TestMethod(Method method) {
-    if (method.getAnnotation( org.junit.Test.class ) == null)
-      return false;
+    if (method.getAnnotation( org.junit.experimental.theories.Theory.class ) != null) {
+    	return true;
+	}
 
-    if (method.getReturnType() != void.class || method.getParameterTypes().length != 0)
+    if (method.getAnnotation( org.junit.Test.class ) == null) {
       return false;
+    }
+
+    if (method.getReturnType() != void.class || method.getParameterTypes().length != 0) {
+      return false;
+    }
 
     int mod = method.getModifiers();
     return Modifier.isPublic( mod ) && !Modifier.isStatic( mod ) && !Modifier.isAbstract( mod );
