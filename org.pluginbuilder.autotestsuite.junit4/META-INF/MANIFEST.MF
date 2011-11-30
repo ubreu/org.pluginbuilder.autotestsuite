@@ -1,7 +1,9 @@
 Manifest-Version: 1.0
 Export-Package: org.pluginbuilder.autotestsuite.junit4
-Require-Bundle: org.pluginbuilder.autotestsuite.junit3,org.eclipse.cor
- e.runtime,org.apache.ant,org.junit4
+Require-Bundle: org.pluginbuilder.autotestsuite.junit3,
+ org.eclipse.core.runtime,
+ org.apache.ant,
+ org.junit;bundle-version="4.8.0"
 Bundle-Vendor: pluginbuilder.org
 Bundle-Version: 0.8.0.qualifier
 Bundle-Name: Autotestsuite JUnit4 Plug-in
