@@ -12,10 +12,8 @@ private Class swtbotTestCase;
     try {
       swtbotTestCase = bundle.loadClass( "org.eclipse.swtbot.swt.finder.SWTBotTestCase" );
     } catch (ClassNotFoundException e) {
-      // TODO Auto-generated catch block
-      e.printStackTrace();
+    	// nop
     }
-
   }
 
   @SuppressWarnings("unchecked")
