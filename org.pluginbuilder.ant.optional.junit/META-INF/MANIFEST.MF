@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ant JUnit Fragment
+Bundle-SymbolicName: org.pluginbuilder.ant.optional.junit
+Bundle-Version: 0.8.0.qualifier
+Bundle-Vendor: pluginbuilder.org
+Fragment-Host: org.apache.ant;bundle-version="[1.6.5,2.0.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.core.runtime.compatibility;bundle-version="3.2.100",
+ org.junit;bundle-version="[3.8.2,4.0.0)"
